@@ -1,7 +1,7 @@
 # JavaServlet
 ## college code on java servlet
 ### to access code 
-1. click on main 
+1. click on main .
 2.select which practical you want 
 
 # list of practical
