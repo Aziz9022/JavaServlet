@@ -12,7 +12,7 @@
 
 1c Create a servlet for login page if the username and password are correct then it says message hello username else login failed.(without jdbc)
 
-###for jdbc code first create database Steps:
+### for jdbc code first create database Steps:
 1. SERVICES > DATABASES > JAVA DB > RIGHT CLICK > CREATE DATABASE > WRITE USERNAME AND PASSWORD ( DATABASE NAME -ROLLNO, USERNAME PASSWORD- root,root > FINISH.
 2. RIGHT CLICK AGAIN START DATABASE > EXECUTE COMMAND TO CHECK IF IT IS WORKING PROPERLY.
 
