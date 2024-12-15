@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>AddCookieServlet</servlet-name>
+        <servlet-class>p1.AddCookieServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>TableCookie</servlet-name>
+        <servlet-class>p1.TableCookie</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CookieVisitServlet</servlet-name>
+        <servlet-class>p1.CookieVisitServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SessionServlet</servlet-name>
+        <servlet-class>p1.SessionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddCookieServlet</servlet-name>
+        <url-pattern>/AddCookieServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TableCookie</servlet-name>
+        <url-pattern>/TableCookie</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CookieVisitServlet</servlet-name>
+        <url-pattern>/CookieVisitServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SessionServlet</servlet-name>
+        <url-pattern>/SessionServlet</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
