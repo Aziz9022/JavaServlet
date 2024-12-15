@@ -1,10 +1,11 @@
 # JavaServlet
 ## college code on java servlet
 ### to access code 
-1. click on main .
-2.select which practical you want 
-
-# list of practical
+1. click on main.
+2. select which practical you want.
+3. either you can clone it or copy paste code
+4. or else open NETBEANS > click on TEAMS > GIT > CLONE > add REPOSITORY URL > select which BRANCH (i.e Practical) you want to CLONE  > clone name set to project name u want > FINISH.
+### LIST OF PRACTICAL.
 1a Create a single application which greets user using servlet.
 
 1b To create a simple calculator application using servlet.
