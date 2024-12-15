@@ -12,6 +12,10 @@
 
 1c Create a servlet for login page if the username and password are correct then it says message hello username else login failed.(without jdbc)
 
+###for jdbc code first create database Steps:
+1. SERVICES > DATABASES > JAVA DB > RIGHT CLICK > CREATE DATABASE > WRITE USERNAME AND PASSWORD ( DATABASE NAME -ROLLNO, USERNAME PASSWORD- root,root > FINISH.
+2. RIGHT CLICK AGAIN START DATABASE > EXECUTE COMMAND TO CHECK IF IT IS WORKING PROPERLY.
+
 2a Create a registration servlet in JDBC accept the details such as username, password, email, country from user using html and store data in database.
 
 2b Using request dispatcher interface create a servlet which will validate the password enter by the user using jdbc from the data base for correct credentials forward to welcome servlet else the user will stay on index.html and an error message will be displayed.
