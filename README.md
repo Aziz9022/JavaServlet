@@ -1,5 +1,7 @@
 # JavaServlet
 ## college code on java servlet
+### to access code 
+    1 click on branches
 1a Create a single application which greets user using servlet.
 
 1b To create a simple calculator application using servlet.
