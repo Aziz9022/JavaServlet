@@ -16,9 +16,9 @@
 
 2b Using request dispatcher interface create a servlet which will validate the password enter by the user using jdbc from the data base for correct credentials forward to welcome servlet else the user will stay on index.html and an error message will be displayed.
 
-3a Create a servlet that uses cookies to store the number of time a user has visited the servlet.
+3a Create a servlet that uses cookies to store the number of time a user has visited the servlet.(practical 3 CookieVistedServlet)
 
-3b Create a servlet demonstrating the use of session creation and destruction also check the number of visits and the other details of session.
+3b Create a servlet demonstrating the use of session creation and destruction also check the number of visits and the other details of session.(practical 3 SessionVistedServlet)
 
 4a Develop simple servlet question answer application using database.
 
