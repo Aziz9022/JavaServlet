@@ -1,5 +1,5 @@
 # JavaServlet
-college code on java servlet
+## college code on java servlet
 1a Create a single application which greets user using servlet.
 
 1b To create a simple calculator application using servlet.
