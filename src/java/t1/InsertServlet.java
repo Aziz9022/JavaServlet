@@ -41,7 +41,7 @@ public class InsertServlet extends HttpServlet {
                 con.close();
                 out.println("<h1>Registeration completed</h1>");
                   RequestDispatcher rd = req.getRequestDispatcher("login.html");
-                    rd.forward(req, resp);
+                    rd.include(req, resp);
                 
             } else {
                 out.println("passoword mismatch");
