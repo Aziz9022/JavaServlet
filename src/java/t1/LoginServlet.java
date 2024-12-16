@@ -42,7 +42,7 @@ public class LoginServlet extends HttpServlet {
             } else {
                   out.println("<h3>User does not exist! Redirecting to Registration...</h3>"); 
                 RequestDispatcher rd = req.getRequestDispatcher("index.html");
-                rd.forward(req, resp);
+                rd.include(req, resp);
              
             }
 
