@@ -6,7 +6,7 @@
 3. either you can clone it or copy paste code.
 4. you can find code in src > java/package folder > and for web file > web folder 
 5. or else open NETBEANS > click on TEAMS > GIT > CLONE > add REPOSITORY URL > select which BRANCH (i.e Practical) you want to CLONE  > clone name set to project name u want > FINISH.
-6. # note : change author name as well project name and database name inside code if you are following step 5
+6. ### note : change author name as well project name and database name inside code if you are following step 5
 ### LIST OF PRACTICAL.
 1a Create a single application which greets user using servlet.
 
