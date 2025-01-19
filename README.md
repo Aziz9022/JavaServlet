@@ -28,7 +28,8 @@
 
 4a Develop simple servlet question answer application using database.
 ## for practical 4 
---> u need to create table u can add manually through directly executing command in java db database ->
+--> u need to create table u can add manually through directly executing command in java db database.
+
 CREATE TABLE Quiz(
     Qno INT PRIMARY KEY,
     question VARCHAR(255) NOT NULL,
