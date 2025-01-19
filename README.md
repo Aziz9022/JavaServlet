@@ -56,7 +56,7 @@ VALUES
 (9, 'What is the Capital of India?', 'Mumbai', 'New Delhi', 'Kolkata', 'Chennai', 'New Delhi'),
 (10, 'What is the National Game of India?', 'Football', 'Tennis', 'Cricket', 'Hockey', 'Hockey');
 
-# steps:- services >  databases > java DB > right click on your database link and connect & execute command and paste above sql query.
+##### steps:- services >  databases > java DB > right click on your database link and connect & execute command and paste above sql query.
 ------------------------------------------------------------------------------------------------------------------------------------
 
 5a Write a servlet program to Upload a file.
