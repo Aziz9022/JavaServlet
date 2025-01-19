@@ -27,6 +27,35 @@
 3b Create a servlet demonstrating the use of session creation and destruction also check the number of visits and the other details of session.(practical 3 SessionVistedServlet)
 
 4a Develop simple servlet question answer application using database.
+## for practical 4 
+--> u need to create table u can add manually through directly executing command in java db database ->
+CREATE TABLE Quiz(
+    Qno INT PRIMARY KEY,
+    question VARCHAR(255) NOT NULL,
+    option1 VARCHAR(100) NOT NULL,
+    option2 VARCHAR(100) NOT NULL,
+    option3 VARCHAR(100) NOT NULL,
+    option4 VARCHAR(100) NOT NULL,
+    correct_answer VARCHAR(100) NOT NULL
+);
+--> also add value -->
+
+INSERT INTO Quiz 
+(Qno, question, option1, option2, option3, option4, correct_answer)
+VALUES
+(1, 'What is the National Animal of India?', 'Lion', 'Tiger', 'Elephant', 'Leopard', 'Tiger'),
+(2, 'What is the National Bird of India?', 'Peacock', 'Sparrow', 'Eagle', 'Pigeon', 'Peacock'),
+(3, 'What is the National Fruit of India?', 'Mango', 'Banana', 'Papaya', 'Apple', 'Mango'),
+(4, 'What is the National Flower of India?', 'Lily', 'Rose', 'Lotus', 'Sunflower', 'Lotus'),
+(5, 'What is the National Currency of India?', 'Rupee', 'Dollar', 'Yen', 'Pound', 'Rupee'),
+(6, 'What is the National Tree of India?', 'Banyan', 'Neem', 'Peepal', 'Mango', 'Banyan'),
+(7, 'Who is known as the Father of the Nation in India?', 'Jawaharlal Nehru', 'Subhas Chandra Bose', 'Mahatma Gandhi', 'Sardar Patel', 'Mahatma Gandhi'),
+(8, 'What is the National Anthem of India?', 'Jana Gana Mana', 'Vande Mataram', 'Saare Jahaan Se Achha', 'Bharat Humko Jaan Se Pyara Hai', 'Jana Gana Mana'),
+(9, 'What is the Capital of India?', 'Mumbai', 'New Delhi', 'Kolkata', 'Chennai', 'New Delhi'),
+(10, 'What is the National Game of India?', 'Football', 'Tennis', 'Cricket', 'Hockey', 'Hockey');
+
+steps:- services >  databases > java DB > right click on your database link and connect & execute command and paste above sql query.
+------------------------------------------------------------------------------------------------------------------------------------
 
 5a Write a servlet program to Upload a file.
 
