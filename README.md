@@ -39,6 +39,7 @@ CREATE TABLE Quiz(
     option4 VARCHAR(100) NOT NULL,
     correct_answer VARCHAR(100) NOT NULL
 );
+
 --> also add value -->
 
 INSERT INTO Quiz 
