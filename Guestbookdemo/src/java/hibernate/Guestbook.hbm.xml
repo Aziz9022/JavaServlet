@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 30 Jan, 2025 7:40:59 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="hibernate.Guestbook" table="GUESTBOOK" schema="ROOT" optimistic-lock="version">
+        <id name="vno" type="int">
+            <column name="VNO" />
+            <generator class="identity" />
+        </id>
+        <property name="vname" type="string">
+            <column name="VNAME" length="50" />
+        </property>
+        <property name="msg" type="string">
+            <column name="MSG" length="100" />
+        </property>
+        <property name="mdate" type="string">
+            <column name="MDATE" length="50" />
+        </property>
+    </class>
+</hibernate-mapping>
