@@ -57,12 +57,15 @@ VALUES
 (10, 'What is the National Game of India?', 'Football', 'Tennis', 'Cricket', 'Hockey', 'Hockey');
 
 ##### steps:- services >  databases > java DB > right click on your database link and connect & execute command and paste above sql query.
+
 ------------------------------------------------------------------------------------------------------------------------------------
 
 5a Write a servlet program to Upload a file.
 
 5b Write a servlet program to Download a file.
-5c Non blocking io
+
+5c Non blocking io.
+
 ------------------------------------------------------------------------------------------------------------------------
 
 6a Simple JSP application to display values obtained from the use of intrinsic objects
