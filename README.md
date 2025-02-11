@@ -67,12 +67,15 @@ VALUES
 5c Non blocking io.
 
 ------------------------------------------------------------------------------------------------------------------------
+#### for practical 6c we need table which is already created in practical 2 registration servlet. so use it 
 
 6a Simple JSP application to display values obtained from the use of intrinsic objects
 
 6b Develop a simple JSP application to pass values from one page to another with validations (name-textbox ,age-textbox, hobbies checkbox, gender- radiobutton, email- textbox)
 
 6c Create a registration and login JSP application to register and authenticate the user based on the username and password using JDBC.
+
+------------------------------------------------------------------------------------------------------------
 
 7a Create an html page with fills employee no. , Name, age, designation, salary and a submit button on the click of submit button the data goes to a JSP page which will update the employee table of the database with matching employee no.
 
