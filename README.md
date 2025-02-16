@@ -77,11 +77,14 @@ VALUES
 
 ------------------------------------------------------------------------------------------------------------
 
+
 7a Create an html page with fills employee no. , Name, age, designation, salary and a submit button on the click of submit button the data goes to a JSP page which will update the employee table of the database with matching employee no.
 
 7b Create a JSP page to demonstrate the use of expression language.
 
 7c Create a jsp application to demonstrate the use of JSTL. 
+
+-------------------------------------------------------------------------------------------------------------
 
 8a Create a currency converter application using EJB.
 
