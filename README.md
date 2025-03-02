@@ -89,8 +89,29 @@ VALUES
 8a Create a currency converter application using EJB.
 
 8b Develop simple app to insert student marks using ejb.
+    table for 8b practical: 
+   
+    CREATE TABLE MARKS (
+    ID INTEGER PRIMARY KEY,
+    NAME VARCHAR(100),
+    MARKS1 FLOAT,
+    MARKS2 FLOAT,
+    MARKS3 FLOAT
+    );
 
+ ------------------------------------------------------------------------
+    
 9 Develop a simple EJB application to demonstrate servlet hit count using single ton session beans.
+table for 8b practical: 
+CREATE TABLE MARKS (
+    ID INTEGER PRIMARY KEY,
+    NAME VARCHAR(100),
+    MARKS1 FLOAT,
+    MARKS2 FLOAT,
+    MARKS3 FLOAT
+);
+
+--------------------------------------------------------------------------------------
 
 10 Develop a hibernate application to store the feedback of website visitor in database.
 
