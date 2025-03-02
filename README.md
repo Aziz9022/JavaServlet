@@ -7,6 +7,9 @@
 4. you can find code in src > java/package folder > and for web file > web folder 
 5. or else open NETBEANS > click on TEAMS > GIT > CLONE > add REPOSITORY URL > select which BRANCH (i.e Practical) you want to CLONE  > clone name set to project name u want > FINISH.
 6. ### note : change author name as well project name and database name inside code if you are following step 5
+   
+---------------------------------------------------------------------------------
+
 ### LIST OF PRACTICAL.
 1a Create a single application which greets user using servlet.
 
@@ -30,7 +33,7 @@
 ## for practical 4 
 --> u need to create table u can add manually through directly executing command in java db database.
 
-CREATE TABLE Quiz(
+    CREATE TABLE Quiz(
     Qno INT PRIMARY KEY,
     question VARCHAR(255) NOT NULL,
     option1 VARCHAR(100) NOT NULL,
@@ -38,23 +41,23 @@ CREATE TABLE Quiz(
     option3 VARCHAR(100) NOT NULL,
     option4 VARCHAR(100) NOT NULL,
     correct_answer VARCHAR(100) NOT NULL
-);
+    );
 
 --> also add value -->
 
-INSERT INTO Quiz 
-(Qno, question, option1, option2, option3, option4, correct_answer)
-VALUES
-(1, 'What is the National Animal of India?', 'Lion', 'Tiger', 'Elephant', 'Leopard', 'Tiger'),
-(2, 'What is the National Bird of India?', 'Peacock', 'Sparrow', 'Eagle', 'Pigeon', 'Peacock'),
-(3, 'What is the National Fruit of India?', 'Mango', 'Banana', 'Papaya', 'Apple', 'Mango'),
-(4, 'What is the National Flower of India?', 'Lily', 'Rose', 'Lotus', 'Sunflower', 'Lotus'),
-(5, 'What is the National Currency of India?', 'Rupee', 'Dollar', 'Yen', 'Pound', 'Rupee'),
-(6, 'What is the National Tree of India?', 'Banyan', 'Neem', 'Peepal', 'Mango', 'Banyan'),
-(7, 'Who is known as the Father of the Nation in India?', 'Jawaharlal Nehru', 'Subhas Chandra Bose', 'Mahatma Gandhi', 'Sardar Patel', 'Mahatma Gandhi'),
-(8, 'What is the National Anthem of India?', 'Jana Gana Mana', 'Vande Mataram', 'Saare Jahaan Se Achha', 'Bharat Humko Jaan Se Pyara Hai', 'Jana Gana Mana'),
-(9, 'What is the Capital of India?', 'Mumbai', 'New Delhi', 'Kolkata', 'Chennai', 'New Delhi'),
-(10, 'What is the National Game of India?', 'Football', 'Tennis', 'Cricket', 'Hockey', 'Hockey');
+    INSERT INTO Quiz 
+    (Qno, question, option1, option2, option3, option4, correct_answer)
+    VALUES
+    (1, 'What is the National Animal of India?', 'Lion', 'Tiger', 'Elephant', 'Leopard', 'Tiger'),
+    (2, 'What is the National Bird of India?', 'Peacock', 'Sparrow', 'Eagle', 'Pigeon', 'Peacock'),
+    (3, 'What is the National Fruit of India?', 'Mango', 'Banana', 'Papaya', 'Apple', 'Mango'),
+    (4, 'What is the National Flower of India?', 'Lily', 'Rose', 'Lotus', 'Sunflower', 'Lotus'),
+    (5, 'What is the National Currency of India?', 'Rupee', 'Dollar', 'Yen', 'Pound', 'Rupee'),
+    (6, 'What is the National Tree of India?', 'Banyan', 'Neem', 'Peepal', 'Mango', 'Banyan'),
+    (7, 'Who is known as the Father of the Nation in India?', 'Jawaharlal Nehru', 'Subhas Chandra Bose', 'Mahatma Gandhi', 'Sardar Patel', 'Mahatma Gandhi'),
+    (8, 'What is the National Anthem of India?', 'Jana Gana Mana', 'Vande Mataram', 'Saare Jahaan Se Achha', 'Bharat Humko Jaan Se Pyara Hai', 'Jana Gana Mana'),
+    (9, 'What is the Capital of India?', 'Mumbai', 'New Delhi', 'Kolkata', 'Chennai', 'New Delhi'),
+    (10, 'What is the National Game of India?', 'Football', 'Tennis', 'Cricket', 'Hockey', 'Hockey');
 
 ##### steps:- services >  databases > java DB > right click on your database link and connect & execute command and paste above sql query.
 
@@ -102,14 +105,6 @@ VALUES
  ------------------------------------------------------------------------
     
 9 Develop a simple EJB application to demonstrate servlet hit count using single ton session beans.
-table for 8b practical: 
-CREATE TABLE MARKS (
-    ID INTEGER PRIMARY KEY,
-    NAME VARCHAR(100),
-    MARKS1 FLOAT,
-    MARKS2 FLOAT,
-    MARKS3 FLOAT
-);
 
 --------------------------------------------------------------------------------------
 
