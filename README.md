@@ -88,12 +88,13 @@ VALUES
 
 8a Create a currency converter application using EJB.
 
-8b Develop a simple room reservation system application using EJB.
+8b Develop simple app to insert student marks using ejb.
 
-9a Develop a simple EJB application to demonstrate servlet hit count using single ton session beans.
+9 Develop a simple EJB application to demonstrate servlet hit count using single ton session beans.
 
-9b Develop a JPA Application to demonstrate use of ORM associations.  
+10 Develop a hibernate application to store the feedback of website visitor in database.
 
-10a Develop a guest book application using JPA.
+------------------------------------------------------------------------------------------
 
-10b Develop a hibernate application to store the feedback of website visitor in database.
+# i will add my CE2 Evaluation Project as well in branckes
+
